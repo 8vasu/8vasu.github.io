@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Computer Modern Serif';
+    src: url('../font/cmunrm.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Computer Modern Serif';
+    src: url('../font/cmunbx.ttf') format('truetype'),
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Computer Modern Serif';
+    src: url('../font/cmunti.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Computer Modern Serif';
+    src: url('../font/cmunbi.ttf') format('truetype'),
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    background-size: 100px 100px;
+    background-image:
+        radial-gradient(at top left, #cdcdcd 1%, transparent 2%),
+        radial-gradient(at top right, #cdcdcd 1%, transparent 2%),
+        radial-gradient(at bottom left, #cdcdcd 1%, transparent 2%),
+        radial-gradient(at bottom right, #cdcdcd 1%, transparent 2%),
+	linear-gradient(to top, #eeeeee 1%, transparent 2%),
+        linear-gradient(to top left, transparent 49%, #eeeeee 50%, transparent 51%);
+}
+
+#cntrpnl {
+    /* background-color: #f1f1f1; */
+    background-color: rgba(255, 255, 255, 0.7);
+    border-style: none solid none solid;
+    border-color: #ccc;
+    border-width: 1px;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Computer Modern Serif';
+    min-height: 100vh;
+    overflow-wrap: break-word;
+    padding: 1rem;
+}
+
+#cntnt {
+    min-height: calc(100vh - 120px);
+}
