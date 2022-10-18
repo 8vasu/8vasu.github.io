@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on Soumendra Ganguly</title>
-    <link>http://example.org/tags/hugo/</link>
+    <link>https://8vasu.github.io/tags/hugo/</link>
     <description>Recent content in hugo on Soumendra Ganguly</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://8vasu.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>org-mode micro tutorial</title>
-      <link>http://example.org/posts/org_mode_micro/</link>
+      <link>https://8vasu.github.io/posts/org_mode_micro/</link>
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/org_mode_micro/</guid>
+      <guid>https://8vasu.github.io/posts/org_mode_micro/</guid>
       <description>This post describes the emacs org-mode file that was used to generate this post.
 Setup   If not already installed, then get GNU Emacs, start it, and type C-h t, that is, Ctrl-h followed by t to access the built-in tutorial. Next, create a file named example.org and populate it with the following code, select it, and execute the region using M-x eval-region.
 (setq org-image-actual-width nil) (setq org-format-latex-options (plist-put org-format-latex-options :scale 3.</description>
