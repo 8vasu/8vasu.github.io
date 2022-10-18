@@ -33,7 +33,8 @@ Setup   If not already installed, then get GNU Emacs, start it, and type C-h t, 
       <pubDate>Tue, 18 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://8vasu.github.io/teaching/</guid>
-      <description>Talk about your teaching here.</description>
+      <description>Talk about your teaching here.
+ /extHTML/gantt.html</description>
     </item>
     
   </channel>
