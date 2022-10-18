@@ -34,7 +34,7 @@ Setup   If not already installed, then get GNU Emacs, start it, and type C-h t, 
       
       <guid>https://8vasu.github.io/teaching/</guid>
       <description>Talk about your teaching here.
- /extHTML/gantt.html</description>
+ GANTT</description>
     </item>
     
   </channel>
