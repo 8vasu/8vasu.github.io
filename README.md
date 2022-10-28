@@ -1,1 +1,1 @@
-This is my professional website. It was generated using Hugo, Org-mode, and a custom theme.
+Source code for my professional website (soumendraganguly.com). It is generated using Hugo, Emacs Org-mode, and a custom theme.
