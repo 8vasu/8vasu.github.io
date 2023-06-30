@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"></noscript>
+
+  
+  <link rel="preload" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css"></noscript>
+
+  
+  
+  
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha384-Juol1FqnotbkyZUT5Z7gUPjQ9gzlwCENvUZTpQBAPxtusdwFLRy382PSDx5UUJ4/" crossorigin="anonymous">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.css" integrity="sha384-Juol1FqnotbkyZUT5Z7gUPjQ9gzlwCENvUZTpQBAPxtusdwFLRy382PSDx5UUJ4/" crossorigin="anonymous"></noscript>
+  
+
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  
+
+  
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XT9VQT417W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XT9VQT417W');
+  </script>
+  
+
+  
+  
+  <title>SOUMENDRA GANGULY | A short introduction to Org-mode and Hugo</title>
+</head>
+<body>
+<header class="navbar navbar-expand-lg sticky-top">
+  <nav class="container-fluid flex-wrap flex-lg-nowrap">
+    <a class="navbar-brand" href="/">
+      <svg height="40" width="40" xmlns="http://www.w3.org/2000/svg">
+	<text x="20" y="28" text-anchor="middle">
+	  SG
+	</text>
+      </svg>
+    </a>
+
+    <button class="btn border-0 d-lg-none" id="eh-search-btn" onclick="eh_search_btn_func();">
+      <i class="fa fa-search fa-2x"></i>
+    </button>
+    <form onsubmit="google_search(); return false;" class="d-none d-lg-block" id="eh-search-form">
+      <hr class="d-lg-none eh-collapse-separator">
+      <div class="eh-search-bar">
+	<i class="fa fa-search"></i>
+	<input type="text" class="form-control shadow-none" id="eh-search-box" placeholder="Search">
+      </div>
+    </form>
+
+    <button class="navbar-toggler border-0" type="button" onclick="eh_navbar_toggler_func();" data-bs-toggle="collapse" data-bs-target="#eh-navbar-menu" aria-controls="eh-navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars fa-2x"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="eh-navbar-menu">
+      <ul class="navbar-nav">
+	<li class="nav-item">
+	  <hr class="eh-collapse-separator">
+	</li>
+	
+	
+	
+	
+	<li class="nav-item">
+	  
+	  <a class="nav-link " href="/research/">
+	    
+	    RESEARCH
+	  </a>
+	  
+	</li>
+	
+	
+	
+	
+	<li class="nav-item">
+	  
+	  <a class="nav-link " href="/teaching/">
+	    
+	    TEACHING
+	  </a>
+	  
+	</li>
+	
+	
+	
+	
+	<li class="nav-item">
+	  
+	  <a class="nav-link " href="/software/">
+	    
+	    SOFTWARE
+	  </a>
+	  
+	</li>
+	
+	
+	
+	
+	<li class="nav-item">
+	  
+	  <a class="nav-link" href="/pdfs/soumendra-cv.pdf" target="_blank" onclick="this.blur();">
+	    
+	    
+	    CV
+	    
+	  </a>
+	  
+	</li>
+	
+	
+	
+	
+	<li class="nav-item">
+	  
+	  <a class="nav-link eh-navlink-current" href="/blog/">
+	    
+	    BLOG
+	  </a>
+	  
+	</li>
+	
+	
+	
+	
+	<li class="nav-item">
+	  
+	  <a class="nav-link" href="https://github.com/8vasu" target="_blank" onclick="this.blur();">
+	    <i class='fab fa-github'></i>
+	    
+	    GitHub
+	    
+	  </a>
+	  
+	</li>
+	
+      </ul>
+    </div>
+
+  </nav>
+</header>
+<div id="eh-center-panel">
+<h1 class="eh-single-heading">A short introduction to Org-mode and Hugo</h1>
+
+<div class="eh-flex-container">
+  <div>
+    
+    <ul class="eh-tag-list">
+  
+  
+  
+  <li>
+    <a href="https://soumendraganguly.com/tags/emacs">emacs</a>
+  </li>
+  
+  
+  <li>
+    <a href="https://soumendraganguly.com/tags/hugo">hugo</a>
+  </li>
+  
+  
+  <li>
+    <a href="https://soumendraganguly.com/tags/org-mode">org-mode</a>
+  </li>
+  
+  
+</ul>
+
+    
+  </div>
+  
+  <div>
+    
+    
+
+<time class="eh-date" datetime="2022-10-18">Oct 18, 2022</time>
+
+    
+  </div>  
+</div>
+
+<hr class="eh-single-top-hrule">
+
+
+<h4 class="eh-toc-heading">Table of contents</h4>
+<nav id="TableOfContents">
+<ul>
+<li><a href="#headline-1">Setup</a>
+</li>
+<li><a href="#headline-2">Comments</a>
+</li>
+<li><a href="#headline-3">Headlines</a>
+<ul>
+<li><a href="#headline-4">Second level</a>
+<ul>
+<li><a href="#headline-5">Third level 1</a>
+</li>
+<li><a href="#headline-6">Third level 2</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#headline-7"><em>TODO</em> items</a>
+</li>
+<li><a href="#headline-8">Emphasis</a>
+</li>
+<li><a href="#headline-9">Plain lists</a>
+</li>
+<li><a href="#headline-10">Horizontal rule</a>
+</li>
+<li><a href="#headline-11">Checkboxes</a>
+</li>
+<li><a href="#headline-12">Superscripts and Subscripts</a>
+</li>
+<li><a href="#headline-13">Tables</a>
+</li>
+<li><a href="#headline-14">Paragraphs and blockquotes</a>
+</li>
+<li><a href="#headline-15">Caption</a>
+</li>
+<li><a href="#headline-16">Links</a>
+<ul>
+<li><a href="#headline-17">Web links</a>
+</li>
+<li><a href="#headline-18">Local file links</a>
+</li>
+<li><a href="#headline-19">Internal links</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-20">Footnotes</a>
+</li>
+<li><a href="#headline-21">Code</a>
+</li>
+<li><a href="#imgs">Images</a>
+</li>
+<li><a href="#headline-23">$\LaTeX$</a>
+</li>
+<li><a href="#headline-24">HTML</a>
+</li>
+<li><a href="#headline-25">Hugo shortcodes</a>
+</li>
+<li><a href="#headline-26">Emoji and Font Awesome</a>
+</li>
+</ul>
+</nav>
+<hr>
+
+
+<div class="eh-content">
+  <article class="autonumbering">
+    
+<p>
+This is the first note on this website. This document was originally written
+in <a href="https://orgmode.org/"  target="_blank">Org-mode</a>
+, which is note-taking software
+that forms a part of the text editor <a href="https://www.gnu.org/software/emacs/"  target="_blank">GNU Emacs</a>
+.
+HTML export of this post was done using the static site generator <a href="https://gohugo.io/"  target="_blank">Hugo</a>
+.
+Hugo is natively capable of exporting org-mode to HTML
+thanks to <a href="https://github.com/niklasfasching/go-org"  target="_blank">go-org</a>
+.
+Most of this note describes the Org mode file that was used to
+generate the note. At the end of the note, we also visit some interesting
+features of Hugo that complement the features of Org mode, such as embedding
+YouTube videos.</p>
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+Setup
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>
+Basic understanding of GNU Emacs is necessary. If you are new to this,
+then <a href="https://www.gnu.org/software/emacs/download.html"  target="_blank">get GNU Emacs</a>
+
+and follow its marvelous built-in tutorial, which
+is accessed by typing <code>C-h t</code>, that is, <code>Ctrl-h</code> followed by <code>t</code>.
+Once you have finished this task, please create a file named
+<code>example.org</code> and populate it with the following code, select
+it, and execute the selected region using <code>M-x eval-region</code>.</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">(setq org-image-actual-width nil)
+
+(setq org-format-latex-options (plist-put org-format-latex-options :scale 3.0))
+
+(org-babel-do-load-languages
+ &#39;org-babel-load-languages
+ &#39;((python . t)))
+
+(setq org-babel-python-command &#34;python3&#34;)</code></pre></div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+Comments
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<p>
+A line starting with a <code>#</code> followed by a space is an Org comment.
+For example,</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="c"># I will not be exported since I am a comment.</span>
+<span class="c"># I am another comment.</span></code></pre></div>
+</div>
+<p>
+More information: <a href="https://orgmode.org/manual/Comment-Lines.html"  target="_blank">https://orgmode.org/manual/Comment-Lines.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-2">
+<h2 id="headline-3">
+Headlines
+</h2>
+<div id="outline-text-headline-3" class="outline-text-2">
+<p>
+The above text &#34;Headlines&#34; is a web browser rendering of an HTML export
+of a top-level headline in Org-mode. Top-level headlines in Org-mode are
+created by putting a <code>*</code> symbol in front of the headline text.</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="gh">*</span><span class="gs"> This is a top level headline</span></code></pre></div>
+</div>
+<p>
+Lower level headlines are added by adding more <code>*</code> symbols</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="gu">**</span> Second level
+<span class="gu">***</span> Third level 1
+    Some exciting content
+<span class="gu">***</span> Third level 2
+    More interesting content</code></pre></div>
+</div>
+<p>
+The following is an example rendering of the above</p>
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+Second level
+</h3>
+<div id="outline-text-headline-4" class="outline-text-3">
+<div id="outline-container-headline-5" class="outline-4">
+<h4 id="headline-5">
+Third level 1
+</h4>
+<div id="outline-text-headline-5" class="outline-text-4">
+<p>Some exciting content</p>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-4">
+<h4 id="headline-6">
+Third level 2
+</h4>
+<div id="outline-text-headline-6" class="outline-text-4">
+<p>More interesting content</p>
+<p>
+In emacs, the headlines form trees. Press <code>TAB</code> to expand or collapse
+the current subtree, and press <code>S-TAB</code> to expand or collapse the entire tree.</p>
+<p>
+Headlines are exported to <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc in HTML.</p>
+<p>
+More information: <a href="https://orgmode.org/manual/Headlines.html"  target="_blank">https://orgmode.org/manual/Headlines.html</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-7" class="outline-2">
+<h2 id="headline-7">
+<em>TODO</em> items
+</h2>
+<div id="outline-text-headline-7" class="outline-text-2">
+<p>
+TODO items are just headlines that start with the word <code>TODO</code>. When the
+task is complete it can be marked as <code>DONE</code> by changing the state. Use
+<code>C-c C-t</code> to change the TODO state.</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="gu">**</span><span class="err"> TODO</span> install FreeBSD on server2
+<span class="gu">**</span><span class="sr"> DONE</span> install Debian on server1</code></pre></div>
+</div>
+<p>
+More information: <a href="https://orgmode.org/manual/TODO-Basics.html"  target="_blank">https://orgmode.org/manual/TODO-Basics.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-8" class="outline-2">
+<h2 id="headline-8">
+Emphasis
+</h2>
+<div id="outline-text-headline-8" class="outline-text-2">
+<p>
+<em>italic</em>, <span style="text-decoration: underline;">underlined</span>, <strong>bold</strong>, <code class="verbatim">verbatim</code>, <code>code</code>, <del>strike-through</del></p>
+<p>
+is an example rendering of</p>
+<div class="src src-text">
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">/italic/, _underlined_, *bold*, =verbatim=, ~code~, +strike-through+</code></pre></div>
+</div>
+<p>
+More information: <a href="https://orgmode.org/manual/Emphasis-and-Monospace.html"  target="_blank">https://orgmode.org/manual/Emphasis-and-Monospace.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-9" class="outline-2">
+<h2 id="headline-9">
+Plain lists
+</h2>
+<div id="outline-text-headline-9" class="outline-text-2">
+<ul>
+<li>
+<p><em>Unordered</em> list items start with <code>-</code>, <code>+</code>, or <code>*</code> as bullets.</p>
+</li>
+<li>
+<p><em>Ordered</em> list items start with a number followed by either a <code>.</code> or a <code>)</code>.</p>
+</li>
+</ul>
+<p>For example,</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="k">1.</span> Editors
+   <span class="k">- </span>Emacs
+   <span class="k">- </span>Vim
+<span class="k">2.</span> Operating systems
+   <span class="k">- </span>Linux
+   <span class="k">- </span>Windows
+<span class="k">3.</span> Languages
+   <span class="k">- </span>C
+   <span class="k">- </span>Python</code></pre></div>
+</div>
+<p>
+which renders here as</p>
+<ol>
+<li>
+<p>Editors</p>
+<ul>
+<li>
+<p>Emacs</p>
+</li>
+<li>
+<p>Vim</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Operating systems</p>
+<ul>
+<li>
+<p>Linux</p>
+</li>
+<li>
+<p>Windows</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Languages</p>
+<ul>
+<li>
+<p>C</p>
+</li>
+<li>
+<p>Python</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>More information: <a href="https://orgmode.org/manual/Plain-Lists.html"  target="_blank">https://orgmode.org/manual/Plain-Lists.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-10" class="outline-2">
+<h2 id="headline-10">
+Horizontal rule
+</h2>
+<div id="outline-text-headline-10" class="outline-text-2">
+<p>
+type <code>-----</code> (5 dashes) to create a horizontal rule, which renders here as</p>
+<hr>
+<p>
+More information: <a href="https://orgmode.org/manual/Horizontal-Rules.html"  target="_blank">https://orgmode.org/manual/Horizontal-Rules.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-11" class="outline-2">
+<h2 id="headline-11">
+Checkboxes
+</h2>
+<div id="outline-text-headline-11" class="outline-text-2">
+<p>
+Add <code>[ ]</code> to the start of a plain list item to add checkbox functionality.
+Note the space between the <code>[</code>, <code>]</code>.</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="gu">**</span><span class="err"> TODO</span> Study progress [66%]
+  <span class="k">- [X]</span> Algebra
+  <span class="k">- [ ]</span> Combinatorics
+  <span class="k">- [X]</span> Geometry</code></pre></div>
+</div>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="gu">**</span><span class="sr"> DONE</span> Gotta Catch &#39;Em All! [3/3]
+  <span class="k">- [X]</span> Charmander
+  <span class="k">- [X]</span> Bulbasaur
+  <span class="k">- [X]</span> Squirtle</code></pre></div>
+</div>
+<p>
+Use <code>C-c C-c</code> to toggle checkboxes. Insert <code>[/]</code> or <code>[%]</code>
+as above to indicate progress.</p>
+<p>
+More information: <a href="https://orgmode.org/manual/Checkboxes.html"  target="_blank">https://orgmode.org/manual/Checkboxes.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-12" class="outline-2">
+<h2 id="headline-12">
+Superscripts and Subscripts
+</h2>
+<div id="outline-text-headline-12" class="outline-text-2">
+<p>
+Superscripts and subscripts are denoted using <code>^</code> and <code>_</code> respectively.
+Use <code>C-c C-x \</code> to render the superscripts and subscripts in Emacs.
+The following are examples of web rendering of Org-mode superscripts and subscripts.</p>
+<ul>
+<li>
+<p><code>e^{x}</code> is rendered as e<sup>x</sup></p>
+</li>
+<li>
+<p><code>x_{n}</code> is rendered as x<sub>n</sub></p>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-13" class="outline-2">
+<h2 id="headline-13">
+Tables
+</h2>
+<div id="outline-text-headline-13" class="outline-text-2">
+<p>
+To create the following table</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="s">| Name    | Type      | Color  |</span>
+<span class="s">|---------+-----------+--------|</span>
+<span class="s">| Apple   | Fruit     | Red    |</span>
+<span class="s">| Cabbage | Vegetable | Green  |</span>
+<span class="s">| Banana  | Fruit     | Yellow |</span></code></pre></div>
+</div>
+<p>
+type</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">|Name|Type|Color|
+|-</code></pre></div>
+</div>
+<p>
+followed by <code>TAB</code>, or type</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">|Name|Type|Color</code></pre></div>
+</div>
+<p>
+followed by <code>C-c RET</code>; press <code>RET</code> again to add lines;
+use <code>C-c C-c</code> to re-align.</p>
+<p>
+The following is a web rendering of the table after some application of <em>CSS</em>.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Color</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apple</td>
+<td>Fruit</td>
+<td>Red</td>
+</tr>
+<tr>
+<td>Cabbage</td>
+<td>Vegetable</td>
+<td>Green</td>
+</tr>
+<tr>
+<td>Banana</td>
+<td>Fruit</td>
+<td>Yellow</td>
+</tr>
+</tbody>
+</table>
+<p>
+More information: <a href="https://orgmode.org/manual/Tables.html"  target="_blank">https://orgmode.org/manual/Tables.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-14" class="outline-2">
+<h2 id="headline-14">
+Paragraphs and blockquotes
+</h2>
+<div id="outline-text-headline-14" class="outline-text-2">
+<p>
+Place your text in <code>#+BEGIN_VERSE</code>, <code>#+END_VERSE</code>, or
+<code>#+BEGIN_QUOTE</code>, <code>#+END_QUOTE</code> or <code>#+BEGIN_CENTER</code>, <code>#+END_CENTER</code>
+blocks. For example</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="c">#+BEGIN_QUOTE</span>
+I am the punishment of God. If you had not committed great sins, God would not have sent
+a punishment like me upon you. ---Chinggis Khaan
+<span class="c">#+END_QUOTE</span></code></pre></div>
+</div>
+<p>
+Let&#39;s see how that renders here after some application of <em>CSS</em>!</p>
+<blockquote>
+<p>I am the punishment of God. If you had not committed great sins, God would not have sent
+a punishment like me upon you. —Chinggis Khaan</p>
+</blockquote>
+<p>
+For an example demonstrating the centering of an image using
+<code>#+BEGIN_CENTER</code>, <code>#+END_CENTER</code>, <a href="#imgs">goto Images</a>.</p>
+<p>
+More information: <a href="https://orgmode.org/manual/Paragraphs.html"  target="_blank">https://orgmode.org/manual/Paragraphs.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-15" class="outline-2">
+<h2 id="headline-15">
+Caption
+</h2>
+<div id="outline-text-headline-15" class="outline-text-2">
+<p>
+Images, tables, $\LaTeX$ equations, code blocks, etc. can be captioned
+by inserting a line that says <code>#+CAPTION: your-caption-text</code> immediately
+before them. After applying some <em>CSS</em> to the tables, the following code</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="c">#+BEGIN_CENTER</span>
+#+CAPTION: *2022 census data*
+| Name          | Age |
+|---------------+-----|
+| Ash Ketchum   |  10 |
+| Ash&#39;s Pikachu |  30 |
+<span class="c">#+END_CENTER</span></code></pre></div>
+</div>
+<p>
+gives us</p>
+<div class="center-block" style="text-align: center; margin-left: auto; margin-right: auto;">
+<figure>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th class="align-right">Age</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ash Ketchum</td>
+<td class="align-right">10</td>
+</tr>
+<tr>
+<td>Ash&#39;s Pikachu</td>
+<td class="align-right">30</td>
+</tr>
+</tbody>
+</table>
+<figcaption>
+<strong>2022 census data</strong>
+</figcaption>
+</figure>
+</div>
+<p>
+Optionally, one can use <code>#+CAPTION[Short caption]: Longer caption</code>.</p>
+<p>
+More information: <a href="https://orgmode.org/manual/Captions.html"  target="_blank">https://orgmode.org/manual/Captions.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-16" class="outline-2">
+<h2 id="headline-16">
+Links
+</h2>
+<div id="outline-text-headline-16" class="outline-text-2">
+<p>
+Links in Org-mode are created using the syntax <code>[[LINK][DESCRIPTION]]</code>
+or just <code>[[LINK]]</code>.</p>
+<div id="outline-container-headline-17" class="outline-3">
+<h3 id="headline-17">
+Web links
+</h3>
+<div id="outline-text-headline-17" class="outline-text-3">
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="k">- </span>[[<span class="na">https://www.lmfdb.org/</span>]]
+<span class="k">- </span>[[<span class="na">https://pubs.opengroup.org/onlinepubs/9699919799/</span>][<span class="nt">POSIX</span>]]</code></pre></div>
+</div>
+<p>
+web render as</p>
+<ul>
+<li>
+<p><a href="https://www.lmfdb.org/">https://www.lmfdb.org/</a></p>
+</li>
+<li>
+<p><a href="https://pubs.opengroup.org/onlinepubs/9699919799/">POSIX</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-18" class="outline-3">
+<h3 id="headline-18">
+Local file links
+</h3>
+<div id="outline-text-headline-18" class="outline-text-3">
+<p>
+Local file links are created using either absolute paths or
+relative paths. The following links using absolute paths are
+equivalent</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">[[<span class="na">file:/home/soumendra/images/ramanujan.jpg</span>]]
+[[<span class="na">/home/soumendra/images/ramanujan.jpg</span>]]</code></pre></div>
+</div>
+<p>
+The following links using relative paths are equivalent</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">[[<span class="na">file:images/ramanujan.jpg</span>]]
+[[<span class="na">./images/ramanujan.jpg</span>]]</code></pre></div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-19" class="outline-3">
+<h3 id="headline-19">
+Internal links
+</h3>
+<div id="outline-text-headline-19" class="outline-text-3">
+<p>
+A link that does not look like a URL is a link in the current org file.
+For example, the &#34;Images&#34; headline in this document was created using
+the following syntax</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="gh">*</span><span class="gs"> Images</span>
+<span class="c">  :PROPERTIES:
+</span><span class="c"></span><span class="cs">  :CUSTOM_ID: imgs
+</span><span class="cs"></span><span class="c">  :END:</span></code></pre></div>
+</div>
+<p>
+which now enables us to create a link to it using the following syntax</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">[[<span class="na">#imgs</span>][<span class="nt">goto Images</span>]]</code></pre></div>
+</div>
+<p>
+Click the following web rendering of this to jump to the &#34;Images&#34; headline</p>
+<p>
+<a href="#imgs">goto Images</a></p>
+<p>
+Internal links can also be created using <code>[[my search text]]</code> or
+<code>[[my search text][link name]]</code> which link to <code>&lt;&lt;my search text&gt;&gt;</code>.</p>
+<p>
+For other types of links, please see <a href="https://orgmode.org/guide/Hyperlinks.html"  target="_blank">https://orgmode.org/guide/Hyperlinks.html</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-20" class="outline-2">
+<h2 id="headline-20">
+Footnotes
+</h2>
+<div id="outline-text-headline-20" class="outline-text-2">
+<p>
+Define a footnote by using <code>[fn:your-footnote-name]</code>; for example,</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">The internet archive<span class="bp">[fn:</span><span class="s">1</span><span class="bp">]</span> contains a large database of old books.
+<span class="bp">[fn:</span><span class="s">1</span><span class="bp">]</span> https:/<span class="ge">/archive.org/</span></code></pre></div>
+</div>
+<p>
+renders as</p>
+<p>
+The internet archive<sup class="footnote-reference"><a id="footnote-reference-1" href="#footnote-1">1</a></sup> contains a large database of old books.</p>
+<p>
+<code>C-c C-c</code> jumps between footnote definition and reference in Org-mode.</p>
+<p>
+More information: <a href="https://orgmode.org/manual/Creating-Footnotes.html"  target="_blank">https://orgmode.org/manual/Creating-Footnotes.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-21" class="outline-2">
+<h2 id="headline-21">
+Code
+</h2>
+<div id="outline-text-headline-21" class="outline-text-2">
+<p>
+All the displayed Org code in this document is created by placing
+the Org code between <code>#+BEGIN_SRC org</code>, <code>#+END_SRC</code>.  In general,
+<code>#+BEGIN_SRC language-name</code>, <code>#+END_SRC</code> is used. Use <code>C-c C-c</code> to
+evaluate the current code block. For example,</p>
+<pre class="example">
+# Use return statement.
+# Entire source block will get indented and used as the body of main().
+#+BEGIN_SRC python
+def factorial(n):
+    if n == 0:
+        return(1)
+    else:
+        return(n*factorial(n-1))
+
+return(factorial(5))
+#+END_SRC
+
+#+RESULTS:
+: 120
+</pre>
+<p>
+is rendered here as</p>
+<div class="src src-python">
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span><span class="p">(</span><span class="n">n</span><span class="o">*</span><span class="n">factorial</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">))</span>
+
+<span class="k">return</span><span class="p">(</span><span class="n">factorial</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span></code></pre></div>
+</div>
+<pre class="example">
+120
+</pre>
+<p>
+More information: <a href="https://orgmode.org/manual/Working-with-Source-Code.html"  target="_blank">https://orgmode.org/manual/Working-with-Source-Code.html</a>
+</p>
+<p>
+Also see <a href="https://orgmode.org/worg/org-contrib/babel/languages/index.html"  target="_blank">https://orgmode.org/worg/org-contrib/babel/languages/index.html</a>
+
+for language support.</p>
+</div>
+</div>
+<div id="outline-container-imgs" class="outline-2">
+<h2 id="imgs">
+Images
+</h2>
+<div id="outline-text-imgs" class="outline-text-2">
+<p>
+Add a link to an image as follows.</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="cs">#+ATTR_ORG</span><span class="c">: :width 500</span>
+[[<span class="na">file:fiber_product.svg</span>]]</code></pre></div>
+</div>
+<p>
+This renders in your web browser as</p>
+<p><img src="/images/fiber_product.svg" alt="/images/fiber_product.svg" title="/images/fiber_product.svg" /></p>
+<p>
+Type <code>C-c C-x C-v</code> in Org-mode to toggle inline display.</p>
+<p>
+We can also customize HTML export options as follows.</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="c">#+BEGIN_CENTER</span>
+#+CAPTION: *Commutative diagram*
+#+ATTR_HTML: :width 250px
+[[file:fiber_product.svg]]
+<span class="c">#+END_CENTER</span></code></pre></div>
+</div>
+<p>
+This exports as</p>
+<div class="center-block" style="text-align: center; margin-left: auto; margin-right: auto;">
+<figure>
+<img src="/images/fiber_product.svg" alt="/images/fiber_product.svg" title="/images/fiber_product.svg" width="250px"/>
+<figcaption>
+<strong>Commutative diagram</strong>
+</figcaption>
+</figure>
+</div>
+<p>
+We can also have clickable HTML link images as follows.</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="c">#+BEGIN_CENTER</span>
+#+CAPTION: *Commutative diagram (clickable link image)*
+[[https://en.wikipedia.org/wiki/Pullback_(category_theory)][file:fiber_product.svg]]
+<span class="c">#+END_CENTER</span></code></pre></div>
+</div>
+<p>
+This renders as</p>
+<div class="center-block" style="text-align: center; margin-left: auto; margin-right: auto;">
+<figure>
+<a href="https://en.wikipedia.org/wiki/Pullback_(category_theory)"><img src="/images/fiber_product.svg" alt="/images/fiber_product.svg" /></a><figcaption>
+<strong>Commutative diagram (clickable link image)</strong>
+</figcaption>
+</figure>
+</div>
+<p>
+We can rotate an image by adding some CSS as follows.</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="c">#+BEGIN_CENTER</span>
+#+CAPTION: *Commutative diagram (rotated)*
+#+ATTR_HTML: :style transform: rotate(180deg);
+[[file:fiber_product.svg]]
+<span class="c">#+END_CENTER</span></code></pre></div>
+</div>
+<p>
+This renders as</p>
+<div class="center-block" style="text-align: center; margin-left: auto; margin-right: auto;">
+<figure>
+<img src="/images/fiber_product.svg" alt="/images/fiber_product.svg" title="/images/fiber_product.svg" style="transform: rotate(180deg);"/>
+<figcaption>
+<strong>Commutative diagram (rotated)</strong>
+</figcaption>
+</figure>
+</div>
+<p>
+More information: <a href="https://orgmode.org/manual/Images.html"  target="_blank">https://orgmode.org/manual/Images.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-23" class="outline-2">
+<h2 id="headline-23">
+$\LaTeX$
+</h2>
+<div id="outline-text-headline-23" class="outline-text-2">
+<p>
+The following is the Org code for a $\LaTeX$ <em>code block</em>;
+it starts with <code>#+BEGIN_SRC latex</code> and ends with <code>#+END_SRC</code>.</p>
+<pre class="example">
+#+BEGIN_SRC latex
+$e^{i\pi} + 1 = 0$
+#+END_SRC
+</pre>
+<p>
+It web renders as</p>
+<div class="src src-latex">
+<div class="highlight"><pre class="chroma"><code class="language-latex" data-lang="latex"><span class="s">$</span><span class="nb">e^{i</span><span class="nv">\pi</span><span class="nb">} </span><span class="o">+</span><span class="nb"> </span><span class="m">1</span><span class="nb"> </span><span class="o">=</span><span class="nb"> </span><span class="m">0</span><span class="s">$</span></code></pre></div>
+</div>
+<p>
+The following is the Org code for a $\LaTeX$ <em>fragment</em>;
+it does not contain the <code>#+BEGIN_SRC latex</code>, <code>#+END_SRC</code>.</p>
+<pre class="example">
+$e^{i\pi} + 1 = 0$
+</pre>
+<p>
+If you have a working $\LaTeX$ installation and <a href="https://savannah.nongnu.org/projects/dvipng/"  target="_blank">dvipng</a>
+,
+<a href="https://dvisvgm.de/"  target="_blank">dvisvgm</a>
+, or <a href="https://imagemagick.org/index.php"  target="_blank">ImageMagick</a>
+
+installed, $\LaTeX$ fragments can be processed to produce images
+of the typeset expressions to be used for inclusion while exporting to HTML
+or for inline previewing within Org-mode; toggle inline preview of $\LaTeX$
+fragments in Org-mode using <code>C-c C-x C-l</code>.</p>
+<p>
+$\LaTeX$ fragments can alternatively be web rendered using <a href="https://www.mathjax.org/"  target="_blank">MathJax</a>
+
+or <a href="https://katex.org/"  target="_blank">KaTeX</a>
+.
+For example, the above $\LaTeX$ fragment is rendered by MathJax as follows.</p>
+<p>
+$e^{i\pi} + 1 = 0$</p>
+<p>
+More information: <a href="https://orgmode.org/manual/Embedded-LaTeX.html"  target="_blank">https://orgmode.org/manual/Embedded-LaTeX.html</a>
+
+and <a href="https://orgmode.org/manual/LaTeX-Export.html"  target="_blank">https://orgmode.org/manual/LaTeX-Export.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-24" class="outline-2">
+<h2 id="headline-24">
+HTML
+</h2>
+<div id="outline-text-headline-24" class="outline-text-2">
+<p>
+In Emacs, you can use <code>C-c C-e h h</code> to export your Org file to an HTML file
+or <code>C-c C-e h o</code> to export to an HTML file and open in a web browser. Alternatively,
+you can follow <a href="https://lucidmanager.org/productivity/create-websites-with-org-mode-and-hugo/"  target="_blank">this</a>
+
+short article by Peter Prevos on how to generate a static website using Org-mode and Hugo. Note that alongside Org,
+Hugo also supports generating HTML from <a href="https://daringfireball.net/projects/markdown/"  target="_blank">Markdown</a>
+.</p>
+<p>
+To embed raw HTML in Org-mode, type your HTML between <code>#+BEGIN_EXPORT html</code> and <code>#+END_EXPORT</code>. For example,</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="c">#+BEGIN_EXPORT </span><span class="cs">html</span>
+<span class="p">&lt;</span><span class="nt">svg</span> <span class="na">height</span><span class="o">=</span><span class="s">&#34;100&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;100&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">circle</span> <span class="na">cx</span><span class="o">=</span><span class="s">&#34;50&#34;</span> <span class="na">cy</span><span class="o">=</span><span class="s">&#34;50&#34;</span> <span class="na">r</span><span class="o">=</span><span class="s">&#34;40&#34;</span> <span class="na">fill</span><span class="o">=</span><span class="s">&#34;#2b4e77&#34;</span> <span class="p">/&gt;</span>
+  <span class="p">&lt;</span><span class="nt">circle</span> <span class="na">cx</span><span class="o">=</span><span class="s">&#34;50&#34;</span> <span class="na">cy</span><span class="o">=</span><span class="s">&#34;50&#34;</span> <span class="na">r</span><span class="o">=</span><span class="s">&#34;30&#34;</span> <span class="na">fill</span><span class="o">=</span><span class="s">&#34;white&#34;</span> <span class="p">/&gt;</span>
+  <span class="p">&lt;</span><span class="nt">circle</span> <span class="na">cx</span><span class="o">=</span><span class="s">&#34;50&#34;</span> <span class="na">cy</span><span class="o">=</span><span class="s">&#34;50&#34;</span> <span class="na">r</span><span class="o">=</span><span class="s">&#34;20&#34;</span> <span class="na">fill</span><span class="o">=</span><span class="s">&#34;#2b4e77&#34;</span> <span class="p">/&gt;</span>
+  <span class="p">&lt;</span><span class="nt">circle</span> <span class="na">cx</span><span class="o">=</span><span class="s">&#34;50&#34;</span> <span class="na">cy</span><span class="o">=</span><span class="s">&#34;50&#34;</span> <span class="na">r</span><span class="o">=</span><span class="s">&#34;10&#34;</span> <span class="na">fill</span><span class="o">=</span><span class="s">&#34;white&#34;</span> <span class="p">/&gt;</span>
+<span class="p">&lt;/</span><span class="nt">svg</span><span class="p">&gt;</span>
+<span class="c">#+END_EXPORT</span></code></pre></div>
+</div>
+<p>
+renders as</p>
+<svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" fill="#2b4e77" />
+  <circle cx="50" cy="50" r="30" fill="white" />
+  <circle cx="50" cy="50" r="20" fill="#2b4e77" />
+  <circle cx="50" cy="50" r="10" fill="white" />
+</svg>
+<p>
+More information: <a href="https://orgmode.org/manual/HTML-Export.html"  target="_blank">https://orgmode.org/manual/HTML-Export.html</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-25" class="outline-2">
+<h2 id="headline-25">
+Hugo shortcodes
+</h2>
+<div id="outline-text-headline-25" class="outline-text-2">
+<p>
+We will visit some specific examples of Hugo shortcodes in this note.
+To embed a YouTube video having ID <em>fZYWwSIvYL0</em>, type</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">{{&lt;<span class="s"> youtube id=&#34;fZYWwSIvYL0&#34; </span>&gt;}}</code></pre></div>
+</div>
+<p>
+which will render as</p>
+<p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/fZYWwSIvYL0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<p>
+A similar approach works for other video sharing sites such as Vimeo.
+Try</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">{{&lt;<span class="s"> vimeo 146022717 </span>&gt;}}</code></pre></div>
+</div>
+<p>
+Hugo also makes it easy to embed GitHub gists, Instagram photos, and tweets
+using shortcodes! For example,</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">{{&lt;<span class="s"> gist spf13 7896402 &#34;img.html&#34; </span>&gt;}}</code></pre></div>
+</div>
+<p>
+renders here as</p>
+<p>
+<script type="application/javascript" src="https://gist.github.com/spf13/7896402.js?file=img.html"></script>
+</p>
+<p>
+Instead of inserting images using Org-mode, we can also use
+Hugo shortcodes; for instance,</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="c">#+BEGIN_CENTER</span>
+{{&lt; figure src=&#34;/images/fiber_product.svg&#34; title=&#34;Fiber product&#34; &gt;}}
+<span class="c">#+END_CENTER</span></code></pre></div>
+</div>
+<p>
+produces the following output</p>
+<div class="center-block" style="text-align: center; margin-left: auto; margin-right: auto;">
+<figure>
+    <img src="/images/fiber_product.svg"/> <figcaption>
+            <h4>Fiber product</h4>
+        </figcaption>
+</figure>
+
+</div>
+<p>
+To make links open in a new browser tab, one needs to add <code>target=&#34;_blank&#34;</code>
+to their <code>&lt;a&gt;</code> HTML element; this can be done in Org-mode by adding
+<code>#+ATTR_HTML: :target _blank</code>  before a link, but the Hugo exporter seems
+to have a bug that adds the <code>target=&#34;_blank&#34;</code> to a <code>&lt;p&gt;</code> element containing
+the <code>&lt;a&gt;</code> HTML element. One can however create shortcodes to add this functionality.
+For example, creating the file <code>/themes/your-theme-name/layouts/shortcodes/ant.html</code>
+with the following content</p>
+<div class="src src-html">
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;{{ index .Params 0 | safeURL }}&#34;</span> <span class="na">target</span><span class="o">=</span><span class="s">&#34;_blank&#34;</span> <span class="p">&gt;</span>{{ index .Params 1 | safeHTML }}<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span></code></pre></div>
+</div>
+<p>
+allows one to write</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org">{{&lt;<span class="s"> ant &#34;https://www.wikipedia.org/&#34; &#34;WIKIPEDIA&#34; </span>&gt;}}</code></pre></div>
+</div>
+<p>
+to get</p>
+<p>
+<a href="https://www.wikipedia.org/"  target="_blank">WIKIPEDIA</a>
+</p>
+<p>
+More information: <a href="https://gohugo.io/content-management/shortcodes/"  target="_blank">https://gohugo.io/content-management/shortcodes/</a>
+ and
+<a href="https://gohugo.io/templates/shortcode-templates/"  target="_blank">https://gohugo.io/templates/shortcode-templates/</a>
+</p>
+</div>
+</div>
+<div id="outline-container-headline-26" class="outline-2">
+<h2 id="headline-26">
+Emoji and Font Awesome
+</h2>
+<div id="outline-text-headline-26" class="outline-text-2">
+<p>
+After setting <code>enableEmoji</code> to <code>true</code> in your Hugo site&#39;s configuration file, you
+can type <code>heart</code> in between two <code>:</code> symbols (no spaces) to render a ❤️ emoji.
+<a href="https://www.webfx.com/tools/emoji-cheat-sheet/"  target="_blank">This</a>
+ contains many more such examples.</p>
+<p>
+To add <a href="https://fontawesome.com/"  target="_blank">Font Awesome</a>
+ functionality to your Hugo website,
+add the following to the <code>&lt;head&gt;</code> block.</p>
+<div class="src src-html">
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;preload&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://use.fontawesome.com/releases/v6.2.1/css/all.css&#34;</span> <span class="na">as</span><span class="o">=</span><span class="s">&#34;style&#34;</span> <span class="na">onload</span><span class="o">=</span><span class="s">&#34;this.onload=null;this.rel=&#39;stylesheet&#39;&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">noscript</span><span class="p">&gt;&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://use.fontawesome.com/releases/v6.2.1/css/all.css&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">noscript</span><span class="p">&gt;</span></code></pre></div>
+</div>
+<p>
+Next, create the file <code>/themes/your-theme-name/layouts/shortcodes/awe.html</code>
+with the following content.</p>
+<div class="src src-html">
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;{{ range .Params }}{{ . }} {{ end }}&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span></code></pre></div>
+</div>
+<p>
+Now, type the following in your Org file.</p>
+<div class="src src-org">
+<div class="highlight"><pre class="chroma"><code class="language-org" data-lang="org"><span class="gs">*I love to play the*</span> {{&lt;<span class="s"> awe fa fa-guitar </span>&gt;}}</code></pre></div>
+</div>
+<p>
+This is rendered here as</p>
+<p>
+<strong>I love to play the</strong> <i class="fa fa-guitar "></i>
+</p>
+<p>
+I hope you have a wonderful experience with GNU Emacs, Org-mode, and Hugo! 👍</p>
+<p>
+More information: <a href="https://gohugo.io/functions/emojify/"  target="_blank">https://gohugo.io/functions/emojify/</a>
+</p>
+</div>
+</div>
+<div class="footnotes">
+<hr class="footnotes-separatator">
+<div class="footnote-definitions">
+<div class="footnote-definition">
+<sup id="footnote-1"><a href="#footnote-reference-1">1</a></sup>
+<div class="footnote-body">
+<p><a href="https://archive.org/">https://archive.org/</a></p>
+</div>
+</div>
+</div>
+</div>
+
+  </article>
+
+  
+  <hr>
+  <script src="https://utteranc.es/client.js"
+          repo="8vasu/8vasu.github.io"
+          issue-term="pathname"
+          label="comment"
+          theme="boxy-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+  
+</div>
+
+    </div><footer>
+  <div class="d-none" id="eh-term"></div>
+  <div id="eh-pyodide-loading"></div>
+
+  <div id="eh-footer-copyright-notice">
+    Copyright © 2023 Soumendra Ganguly  <div id="eh-footer-sep">|</div> <button id="eh-pyodide-btn" type="button"><i class="fa-brands fa-python"></i> >>></button>
+  </div>
+
+  
+  <script language="javascript" type="text/javascript">
+    function google_search() {
+	var query = document.getElementById("eh-search-box").value;
+	window.open(
+	    'https://www.google.com/search?q=' + query + '+site:' + 'https:\/\/soumendraganguly.com\/'
+	);
+    }
+  </script>
+
+  
+  <script language="javascript" type="text/javascript">
+    function eh_search_btn_func() {
+	document.getElementById('eh-navbar-menu').classList.remove('show');
+	document.getElementById('eh-search-form').classList.toggle('d-lg-block');
+	document.getElementById('eh-search-form').classList.toggle('d-none');
+	document.getElementById('eh-search-box').focus();
+    }
+  </script>
+  <script language="javascript" type="text/javascript">
+    function eh_navbar_toggler_func() {
+	document.getElementById('eh-search-form').classList.add('d-lg-block');
+	document.getElementById('eh-search-form').classList.add('d-none');
+    }
+  </script>
+
+  
+  
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.js" integrity="sha384-97gW6UIJxnlKemYavrqDHSX3SiygeOwIZhwyOKRfSaf0JWKRVj9hLASHgFTzT&#43;0O" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/contrib/auto-render.min.js" integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+  
+
+  
+  <script defer language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script defer language="javascript" type="text/javascript" src="/js/main.js"></script>
+
+  
+  
+  <link rel="preload" href="https://unpkg.com/xterm@5.0.0/css/xterm.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://unpkg.com/xterm@5.0.0/css/xterm.css"></noscript>
+  <script defer language="javascript" type="text/javascript" src="https://unpkg.com/xterm@5.0.0/lib/xterm.js"></script>
+
+  <script defer language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.21.3/full/pyodide.js"></script>
+
+  <script defer language="javascript" type="module" src="/js/pyshell.js"></script>
+  
+</footer>
+</body>
+</html>

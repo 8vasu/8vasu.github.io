@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SOUMENDRA GANGULY</title>
+    <link>https://soumendraganguly.com/</link>
+    <description>Recent content on SOUMENDRA GANGULY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 -0500</lastBuildDate><atom:link href="https://soumendraganguly.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A short introduction to Org-mode and Hugo</title>
+      <link>https://soumendraganguly.com/blog/org_mode_micro/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://soumendraganguly.com/blog/org_mode_micro/</guid>
+      <description>This is the first note on this website. This document was originally written in Org-mode , which is note-taking software that forms a part of the text editor GNU Emacs . HTML export of this post was done using the static site generator Hugo . Hugo is natively capable of exporting org-mode to HTML thanks to go-org . Most of this note describes the Org mode file that was used to generate the note.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://soumendraganguly.com/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soumendraganguly.com/research/</guid>
+      <description>My research is in the area of analytic number theory . Consider the problem of calculating $\pi(x)$ for a given positive number $x$, where $\pi(x)$ denotes the number of prime numbers not exceeding $x$1. While there exist exact formulas2 for $\pi(x)$, they are computationally infeasible when $x$ is large. Therefore, it is desirable to approximate $\pi(x)$ using simpler quantities.
+ In 1896, Jacques Hadamard and Charles Jean de la Vallée Poussin independently proved the prime number theorem , which roughly states that $\frac{x}{\log(x)}$ is a good approximation of $\pi(x)$ for large values of $x$, where $\log$ denotes the natural logarithm.</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://soumendraganguly.com/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soumendraganguly.com/software/</guid>
+      <description>I am a computer programming enthusiast, and I have extensive experience in this area. Specifically, I have made pseudoterminal-related contributions to util-linux , *BSD libc, and CPython .
+ This responsive website is generated using a static site generator called Hugo combined with a custom theme that I wrote. Individual articles and pages such as this one are authored using Org-mode of GNU Emacs . Please read my article for more details.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://soumendraganguly.com/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soumendraganguly.com/teaching/</guid>
+      <description>For a list of my past teaching and work experience, please refer to my CV .</description>
+    </item>
+    
+  </channel>
+</rss>

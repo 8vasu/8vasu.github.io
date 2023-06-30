@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>org-mode on SOUMENDRA GANGULY</title>
+    <link>https://soumendraganguly.com/tags/org-mode/</link>
+    <description>Recent content in org-mode on SOUMENDRA GANGULY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Oct 2022 00:00:00 -0500</lastBuildDate><atom:link href="https://soumendraganguly.com/tags/org-mode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A short introduction to Org-mode and Hugo</title>
+      <link>https://soumendraganguly.com/blog/org_mode_micro/</link>
+      <pubDate>Tue, 18 Oct 2022 00:00:00 -0500</pubDate>
+      
+      <guid>https://soumendraganguly.com/blog/org_mode_micro/</guid>
+      <description>This is the first note on this website. This document was originally written in Org-mode , which is note-taking software that forms a part of the text editor GNU Emacs . HTML export of this post was done using the static site generator Hugo . Hugo is natively capable of exporting org-mode to HTML thanks to go-org . Most of this note describes the Org mode file that was used to generate the note.</description>
+    </item>
+    
+  </channel>
+</rss>

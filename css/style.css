@@ -1,0 +1,628 @@
+/* Font: TeX Gyre Chorus */
+
+@font-face {
+    font-family: 'TeX Gyre Chorus';
+    src: url('/font/texgyrechorus-mediumitalic.otf') format('opentype');
+    font-display: swap;
+}
+
+/* Font: Source Sans Pro */
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/font/SourceSansPro-SemiBold.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Font: DejaVu Serif */
+
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url('/font/DejaVuSerif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url('/font/DejaVuSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url('/font/DejaVuSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url('/font/DejaVuSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Font: Liberation Mono */
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url('/font/LiberationMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url('/font/LiberationMono-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url('/font/LiberationMono-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url('/font/LiberationMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Font: Courier Prime */
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url('/font/CourierPrime-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url('/font/CourierPrime-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url('/font/CourierPrime-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url('/font/CourierPrime-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* MathJax/KaTeX */
+
+.MathJax { font-size: 1.2em !important; }
+.katex { font-size: 1.2em !important; }
+
+/* Tables */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+th {
+    background-color: #b5c1d0;
+    color: black;
+    border: black 2px solid;
+    padding: 0.5em;
+}
+
+td {
+    background-color: transparent;
+    color: black;
+    border: black 2px solid;
+    padding: 0.5em;
+}
+
+/* Horizontal rule */
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #2b4e77;
+}
+
+/* Blockquote */
+
+blockquote {
+    padding: 1em;
+    font-style: italic;
+    background-color: #b5c1d0;
+    border-left: 3px solid #2b4e77;
+    margin-inline-start: 1em;
+}
+
+/* Footer */
+
+#eh-footer-copyright-notice {
+    background-image: linear-gradient(to right, transparent, transparent calc(50vw - 550px), rgba(181, 193, 208, 0.9) calc(50vw - 450px), rgba(181, 193, 208, 0.9) calc(50vw + 450px), transparent calc(50vw + 550px), transparent);
+    color: black;
+    text-align: center;
+    font-family: 'TeX Gyre Chorus';
+    font-size: 1.3em;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100vw;
+    z-index: 4500 !important;
+}
+
+/* Header, Navbar */
+
+.navbar {
+    background-color: rgba(43, 78, 119, 0.9);
+    background-image:
+	repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent 0.5px, rgba(0, 0, 0, 0.5) 0.6px);
+}
+.navbar-brand {
+    padding: 0em;
+    margin: 0em;
+    order: 1;
+}
+#eh-search-btn {
+    padding: 0em;
+    padding-right: 1em;
+    margin: 0em;
+    color: #e5e9ee;
+    order:2;
+}
+#eh-search-btn:hover {
+    color: #b5c1d0;
+}
+.navbar-toggler {
+    padding: 0em;
+    margin: 0em;
+    color: #e5e9ee;
+    order: 3;
+}
+.navbar-toggler:hover {
+    color: #b5c1d0;
+}
+#eh-navbar-menu {
+    order: 4;
+}
+#eh-search-form {
+    width: 100vw;
+    order: 5;
+}
+.navbar .navbar-nav .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media only screen and (min-width: 961px) {
+    .navbar {
+	padding: 0em;
+    }
+    .navbar-brand {
+	padding: 0em;
+	padding-right: 0.5em;
+	margin: 0em;
+    }
+    #eh-search-form {
+	width: 30vw;
+    }
+    .navbar .navbar-nav .nav-link {
+	padding-left: 15px;
+	padding-right: 15px;
+    }
+}
+
+.navbar-brand:link svg text {
+    font-family: 'DejaVu Serif';
+    stroke: #e5e9ee;
+    stroke-width: 2.5px;
+    text-decoration: none !important;
+}
+.navbar-brand:hover svg text {
+    stroke: #b5c1d0;
+}
+
+.navbar li a:link,
+.navbar li a:visited {
+    font-family: 'Source Sans Pro';
+    color: #e5e9ee !important;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.navbar li a:link {
+    border-radius: 4px;
+}
+@media only screen and (min-width: 961px) {
+    .navbar li a:link {
+	border-radius: 0px;
+    }
+}
+.navbar li a:hover,
+.navbar li a:active {
+    font-family: 'Source Sans Pro';
+    background-color: #ccd4df;
+    color: black !important;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.navbar li a.eh-navlink-current {
+    font-family: 'Source Sans Pro';
+    background-color: #b5c1d0;
+    color: black !important;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.collapsing {/* Disable hamburger menu collapse animation */
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+.eh-search-bar {
+    border-style: none;
+    border-radius: 2px;
+    background-color: #e5e9ee;
+    color: #2b4e77;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#eh-search-box {
+    font-family: 'Liberation Mono';
+    border-style: none;
+    background-color: #e5e9ee !important;
+    color: black !important;
+}
+
+.eh-collapse-separator {
+    height: 2px;
+    background-color: white;
+}
+
+/* Table of contents */
+
+.eh-toc-heading {
+    font-family: 'TeX Gyre Chorus';
+    font-size: 1.7em;
+}
+
+#TableOfContents ul {
+    list-style: none;
+    counter-reset: item;
+}
+
+#TableOfContents ul li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
+
+#TableOfContents li a:link,
+#TableOfContents li a:visited,
+#TableOfContents li a:active {
+    font-family: 'Liberation Mono';
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#TableOfContents li a:hover {
+    font-family: 'Liberation Mono';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Links */
+
+a:link,
+a:visited {
+    font-family: 'DejaVu Serif';
+    text-decoration: underline;
+    color: #0000ee;
+}
+
+a:hover,
+a:active {
+    font-family: 'DejaVu Serif';
+    text-decoration: none;
+}
+a:hover {
+    color: #0000ee;
+}
+a:active {
+    color: #005500;
+}
+
+/* Skeleton */
+
+body {
+    background-image:
+	repeating-radial-gradient(circle at center, transparent, transparent 1px, rgba(0, 0, 0, 0.6) 3px, transparent 5px),
+	repeating-radial-gradient(circle at center, transparent, transparent 2px, rgba(0, 0, 0, 0.4) 4px, transparent 6px),
+	radial-gradient(circle at center, black 2%, #05090f 3%, #05090f 5%, #2b4e77 7%, #2b4e77 45%, #05090f 92%, black 100%);
+}
+@media only screen and (min-width: 961px) {
+    /* body { */
+    /* 	background-image: */
+    /* 	    repeating-radial-gradient(circle at bottom, transparent, transparent 1px, rgba(0, 0, 0, 0.6) 3px, transparent 5px 2px), */
+    /* 	    repeating-radial-gradient(circle at bottom, transparent, transparent 2px, rgba(0, 0, 0, 0.4) 4px, transparent 6px), */
+    /* 	    radial-gradient(circle at bottom, black 10%, #05090f 35%, #2b4e77 52%, #2b4e77 60%, #05090f 92%, black 100%); */
+    /* } */
+    body {
+	background-image:
+	    repeating-radial-gradient(ellipse at top, transparent, transparent 1px, rgba(0, 0, 0, 0.6) 3px, transparent 5px),
+	    repeating-radial-gradient(circle at bottom, transparent, transparent 2px, rgba(0, 0, 0, 0.4) 4px, transparent 6px),
+	    radial-gradient(circle at bottom, transparent, transparent 20%, #2b4e77 60%, #05090f 92%, black 100%),
+	    radial-gradient(circle at top, transparent, transparent 20%, #2b4e77 60%, #05090f 92%, black 100%);
+    }
+    /* body { */
+    /* 	background-image: */
+    /* 	    repeating-radial-gradient(ellipse at bottom, transparent, transparent 1px, rgba(0, 0, 0, 0.6) 3px, transparent 5px), */
+    /* 	    repeating-radial-gradient(circle at top, transparent, transparent 2px, rgba(0, 0, 0, 0.4) 4px, transparent 6px), */
+    /* 	    radial-gradient(circle at bottom, black 2%, #05090f 3%, #05090f 5%, #2b4e77 7%, #2b4e77 45%, #05090f 92%, black 100%); */
+    /* } */
+}
+
+#eh-center-panel {
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 1100px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* border-style: none solid none solid; */
+    /* border-color: #cccccc; */
+    /* border-width: 1px; */
+    font-family: 'DejaVu Serif';
+    overflow-wrap: break-word;
+    padding: 1em;
+    font-size: 1.1em;
+}
+
+/* General content */
+
+.eh-content {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Text selection */
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #2b4e77;
+}
+
+::selection {
+    color: white;
+    background: #2b4e77;
+}
+
+/* Home page */
+
+.eh-site-title {
+    font-family: 'DejaVu Serif';
+    padding-top: 0.2em;
+    text-align: center;
+}
+
+.eh-home-top-hrule {
+    margin: 0em;
+}
+
+/* Settings for list.html */
+
+.eh-list-heading {
+    font-family: 'TeX Gyre Chorus';
+}
+
+.eh-list-top-hrule {
+    margin-top:0.4em;
+}
+
+.eh-list-description {
+    padding-top: 1.3em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.eh-list-page-list {
+    list-style: none;
+}
+
+.eh-list-page-list a:link,
+.eh-list-page-list a:visited,
+.eh-list-page-list a:active {
+    text-decoration: none !important;
+}
+.eh-list-page-list a:hover {
+    text-decoration: underline !important;
+}
+
+/* Settings for single.html */
+
+.eh-single-heading {/* top heading for single.html */
+    font-family: 'TeX Gyre Chorus';
+}
+
+.eh-single-top-hrule {
+    margin-top: 0.4em;
+}
+
+.eh-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Autonumbering of headings */
+/* Credit for autonumbering goes to
+https://codingnconcepts.com/hugo/auto-number-headings-hugo/ */
+
+body {counter-set: h2 0 h3 0 h4 0 h5 0 h6 0;}
+h2 {counter-reset: h3 0;}
+h3 {counter-reset: h4 0;}
+h4 {counter-reset: h5 0;}
+h5 {counter-reset: h6 0;}
+
+.autonumbering h2:before {counter-increment: h2; content: counter(h2) ". "}
+.autonumbering h3:before {counter-increment: h3; content: counter(h2) "." counter(h3) ". "}
+.autonumbering h4:before {counter-increment: h4; content: counter(h2) "." counter(h3) "." counter(h4) ". "}
+.autonumbering h5:before {counter-increment: h5; content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "}
+.autonumbering h6:before {counter-increment: h6; content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". "}
+
+/* 404 */
+
+.eh-page-not-found {
+    padding-top: 40vh;
+    text-align: center;
+}
+
+/* Date */
+
+.eh-date {
+    background-color: #cb4154;
+    border-radius: 2px;
+    border-width: 0px;
+    color: white;
+    font-size: 0.8em;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/* Tags */
+
+.eh-tag-list {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.eh-tag-list li {
+    float: left;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+.eh-tag-list a:link,
+.eh-tag-list a:visited {
+    background-color: #2e8b57;
+    border-radius: 2px;
+    border-width: 0px;
+    color: white !important;
+    font-size: 0.8em;
+    padding: 4px;
+    text-decoration: none !important;
+}
+
+.eh-tag-list a:hover,
+.eh-tag-list a:active {
+    background-color: #2b4e77;
+    border-radius: 2px;
+    border-width: 0px;
+    color: white !important;
+    font-size: 0.8em;
+    text-decoration: none !important;
+}
+.eh-tag-list a:hover {
+    padding: 4px;
+}
+.eh-tag-list a:active {
+    padding: 3px;
+}
+
+/* Comment section */
+
+.utterances {
+    max-width: 100vw;
+}
+
+/* pyShell */
+
+#eh-footer-sep {
+    display: none;
+}
+#eh-pyodide-btn {
+    display: none;
+}
+@media only screen and (min-width: 641px) {
+    #eh-footer-sep {
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+    }
+    #eh-pyodide-btn {
+	display: inline-block;
+	font-family: 'Source Sans Pro';
+	font-size: 0.9em;
+	border: none;
+	background-color: transparent;
+	color: #2b4e77;
+    }
+}
+#eh-term {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 30vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 4000 !important;
+    padding: 0.5em;
+    padding-right: 1.5em;
+    margin: 0px;
+}
+#eh-pyodide-loading {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15vh;
+    left: 50vw;
+    border: 3px solid rgba(204, 204, 204, 0.5);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    z-index: 4500 !important;
+}
+@keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
