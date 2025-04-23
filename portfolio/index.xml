@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio (demo) on Soumendra Ganguly</title>
+    <link>https://soumendraganguly.com/portfolio/</link>
+    <description>Recent content in Portfolio (demo) on Soumendra Ganguly</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://soumendraganguly.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In a boat from Dover to Calais.</title>
+      <link>https://soumendraganguly.com/portfolio/story1/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/portfolio/story1/</guid>
+      <description>&lt;p&gt;This is the third test.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
