@@ -1,0 +1,53 @@
+/*
+MIT License
+
+plotcat.js
+Copyright (c) 2025-- Soumendra Ganguly
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+/* Base styles for large screens */
+html, body {
+    height: 100%;    /* Allow full viewport height */
+    margin: 0;
+    padding: 0;
+}
+#sg-term {
+    width: 60vw;    /* Full viewport width */
+    margin: 1rem auto;  /* Center the container */
+    padding: 1rem;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    min-height: 250px;   /* Minimum height on desktop */
+}
+
+/* Responsive styles for phones */
+@media (max-width: 600px) {
+    #sg-term {
+        width: 100vw;    /* Full viewport width */
+        margin: 0;      /* No margin */
+        padding: 0.2rem; /* Minimal padding */
+        height: 95vh;    /* Almost full viewport height */
+        max-width: 100vw; /* Remove desktop max-width */
+        border-radius: 0;
+        min-height: 0;   /* Remove desktop min-height */
+    }
+}
