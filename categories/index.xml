@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Soumendra Ganguly</title>
+    <link>https://soumendraganguly.com/categories/</link>
+    <description>Recent content in Categories on Soumendra Ganguly</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://soumendraganguly.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme Demo</title>
+      <link>https://soumendraganguly.com/categories/theme-demo/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/categories/theme-demo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>temas</title>
+      <link>https://soumendraganguly.com/categoria/temas/</link>
+      <pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate>
+      <guid>https://soumendraganguly.com/categoria/temas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sintaxe</title>
+      <link>https://soumendraganguly.com/categoria/sintaxe/</link>
+      <pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate>
+      <guid>https://soumendraganguly.com/categoria/sintaxe/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
