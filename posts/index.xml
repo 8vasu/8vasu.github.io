@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Soumendra Ganguly</title>
+    <link>https://soumendraganguly.com/posts/</link>
+    <description>Recent content in Posts on Soumendra Ganguly</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://soumendraganguly.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guia de Sintaxe Markdown</title>
+      <link>https://soumendraganguly.com/posts/markdown-syntax.pt-br/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/markdown-syntax.pt-br/</guid>
+      <description>&lt;p&gt;Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://soumendraganguly.com/posts/markdown-syntax/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Conteúdo Rico</title>
+      <link>https://soumendraganguly.com/posts/rich-content.pt-br/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/rich-content.pt-br/</guid>
+      <description>&lt;p&gt;O Hugo vem com vários &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shortcodes Internos&lt;/a&gt; para conteúdo rico, assim como uma &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Configuração de Privacidade&lt;/a&gt; e uma gama de Shortcodes simples que permitem embutir versões estáticas e sem JS de várias de redes sociais.&lt;/p&gt;&#xA;&lt;h2 id=&#34;&#34;&gt;&#xA;  &#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Rich Content</title>
+      <link>https://soumendraganguly.com/posts/rich-content/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;&#xA;&lt;h2 id=&#34;&#34;&gt;&#xA;  &#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Mais Conteúdo Rico</title>
+      <link>https://soumendraganguly.com/posts/more-rich-content.pt-br/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/more-rich-content.pt-br/</guid>
+      <description>&lt;p&gt;O Hugo Coder proporciona alguns Shortcodes Customizados.&lt;/p&gt;&#xA;&lt;h2 id=&#34;&#34;&gt;&#xA;  &#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>More Rich Content</title>
+      <link>https://soumendraganguly.com/posts/more-rich-content/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/more-rich-content/</guid>
+      <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;&#34;&gt;&#xA;  &#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Configuração de Equações Matemáticas</title>
+      <link>https://soumendraganguly.com/posts/math-typesetting.pt-br/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/math-typesetting.pt-br/</guid>
+      <description>&lt;p&gt;Em um projeto Hugo as Notações Matemáticas podem ser usadas com a ajuda de bibliotecas JavaScript de terceiros.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://soumendraganguly.com/posts/math-typesetting/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HTML and CSS only tabs</title>
+      <link>https://soumendraganguly.com/posts/html-and-css-only-tabs/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/html-and-css-only-tabs/</guid>
+      <description>&lt;h2 id=&#34;shortcodes&#34;&gt;&#xA;  Shortcodes&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#shortcodes&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The following content:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; tabgroup &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Hello World!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; /tab &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Goodbye Everybody!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; /tab &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; /tabgroup &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Will generate:&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;tabs tabs-left&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&lt;style&gt;&#xA;  .tabs input#tab-0-0:checked ~ .tab-content-0-0 {&#xA;    display: block;&#xA;  }&#xA;&lt;/style&gt;&#xA;&#xA;&lt;input type=&#34;radio&#34; class=&#34;tab-input&#34; name=&#34;tab-select-0&#34; id=&#34;tab-0-0&#34; checked/&gt;&#xA;&lt;label for=&#34;tab-0-0&#34; class=&#34;tab-label&#34;&gt;Hello&lt;/label&gt;&#xA;&lt;div class=&#34;tab-content tab-content-0-0&#34;&gt;&#xA;  Hello World!&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;style&gt;&#xA;  .tabs input#tab-0-1:checked ~ .tab-content-0-1 {&#xA;    display: block;&#xA;  }&#xA;&lt;/style&gt;&#xA;&#xA;&lt;input type=&#34;radio&#34; class=&#34;tab-input&#34; name=&#34;tab-select-0&#34; id=&#34;tab-0-1&#34; /&gt;&#xA;&lt;label for=&#34;tab-0-1&#34; class=&#34;tab-label&#34;&gt;Goodbye&lt;/label&gt;&#xA;&lt;div class=&#34;tab-content tab-content-0-1&#34;&gt;&#xA;  Goodbye Everybody!&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;right-alignment&#34;&gt;&#xA;  Right alignment&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#right-alignment&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;You can also align the tabs to the right:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HTML and CSS only tabs</title>
+      <link>https://soumendraganguly.com/posts/html-and-css-only-tabs.pt-br/</link>
+      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/html-and-css-only-tabs.pt-br/</guid>
+      <description>&lt;h2 id=&#34;shortcodes&#34;&gt;&#xA;  Shortcodes&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#shortcodes&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;O seguinte conteúdo:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; tabgroup &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; tab name=&amp;#34;Hello&amp;#34; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Hello World!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; /tab &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; tab name=&amp;#34;Goodbye&amp;#34; &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Goodbye Everybody!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; /tab &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; /tabgroup &amp;gt;}}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Irá gerar:&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;tabs tabs-left&#34;&gt;&#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&lt;style&gt;&#xA;  .tabs input#tab-0-0:checked ~ .tab-content-0-0 {&#xA;    display: block;&#xA;  }&#xA;&lt;/style&gt;&#xA;&#xA;&lt;input type=&#34;radio&#34; class=&#34;tab-input&#34; name=&#34;tab-select-0&#34; id=&#34;tab-0-0&#34; checked/&gt;&#xA;&lt;label for=&#34;tab-0-0&#34; class=&#34;tab-label&#34;&gt;Hello&lt;/label&gt;&#xA;&lt;div class=&#34;tab-content tab-content-0-0&#34;&gt;&#xA;  Hello World!&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;style&gt;&#xA;  .tabs input#tab-0-1:checked ~ .tab-content-0-1 {&#xA;    display: block;&#xA;  }&#xA;&lt;/style&gt;&#xA;&#xA;&lt;input type=&#34;radio&#34; class=&#34;tab-input&#34; name=&#34;tab-select-0&#34; id=&#34;tab-0-1&#34; /&gt;&#xA;&lt;label for=&#34;tab-0-1&#34; class=&#34;tab-label&#34;&gt;Goodbye&lt;/label&gt;&#xA;&lt;div class=&#34;tab-content tab-content-0-1&#34;&gt;&#xA;  Goodbye Everybody!&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;alinhamento-à-direita&#34;&gt;&#xA;  Alinhamento à direita&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#alinhamento-%c3%a0-direita&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Você também pode alinhas as tabs à direita:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mermaid JS support</title>
+      <link>https://soumendraganguly.com/posts/mermaid-support/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/mermaid-support/</guid>
+      <description>&lt;p&gt;If you want to use &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mermaid-JS&lt;/a&gt; on your website.&#xA;Provide &lt;code&gt;mermaid&lt;/code&gt; as &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#readout&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shortcode&lt;/a&gt; in your markdown file.&lt;/p&gt;&#xA;&lt;div class=&#34;mermaid&#34;&gt;&#xA;flowchart LR&#xA;&#xA;    A --&gt; B&#xA;&#xA;    B --&gt; C&#xA;&#xA;    C --&gt; D&#xA;&#xA;    D --&gt; B&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;mermaid&#34;&gt;&#xA;sequenceDiagram&#xA;participant Alice&#xA;participant Bob&#xA;Alice-&gt;&gt;Bob: Hi Bob&#xA;Bob-&gt;&gt;Alice: Hi Alice&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Find more example on &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mermaid-JS&lt;/a&gt; website.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mermaid JS support</title>
+      <link>https://soumendraganguly.com/posts/mermaid-support.pt-br/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/mermaid-support.pt-br/</guid>
+      <description>&lt;p&gt;Se quiser usar o &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mermaid-JS&lt;/a&gt; em sua página.&#xA;Use o &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#readout&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode&lt;/a&gt; &lt;code&gt;mermaid&lt;/code&gt; em seus conteúdos Markdown.&lt;/p&gt;&#xA;&lt;div class=&#34;mermaid&#34;&gt;&#xA;flowchart LR&#xA;&#xA;    A --&gt; B&#xA;&#xA;    B --&gt; C&#xA;&#xA;    C --&gt; D&#xA;&#xA;    D --&gt; B&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;mermaid&#34;&gt;&#xA;sequenceDiagram&#xA;participant Alice&#xA;participant Bob&#xA;Alice-&gt;&gt;Bob: Hi Bob&#xA;Bob-&gt;&gt;Alice: Hi Alice&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Entro mais exemplos na página do &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mermaid-JS&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>https://soumendraganguly.com/posts/emoji-support/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Suporte a Emojis</title>
+      <link>https://soumendraganguly.com/posts/emoji-support.pt-br/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/emoji-support.pt-br/</guid>
+      <description>&lt;p&gt;Emojis podem ser ativados em um projeto Hugo de diversar formas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>External Page: Hugo Coder Wiki</title>
+      <link>https://soumendraganguly.com/posts/hugo-coder-wiki/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/hugo-coder-wiki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Página Externa: Wiki Hugo Coder</title>
+      <link>https://soumendraganguly.com/posts/hugo-coder-wiki/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/hugo-coder-wiki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://soumendraganguly.com/posts/placeholder-text/</link>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Texto de Exemplo</title>
+      <link>https://soumendraganguly.com/posts/placeholder-text.pt-br/</link>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://soumendraganguly.com/posts/placeholder-text.pt-br/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

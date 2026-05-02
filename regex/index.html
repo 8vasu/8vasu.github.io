@@ -1,0 +1,106 @@
+<!--
+wasm-regex-tree - WebAssembly visualizer for Rust regular expressions.
+Copyright (C) 2026 Soumendra Ganguly
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WebAssembly visualizer for Rust regular expressions</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="topbar">
+    <div id="controls">
+      <span id="site-title">WebAssembly visualizer for Rust regular expressions <a href="https://github.com/8vasu/wasm-regex-tree">[src]</a></span>
+      <div id="right-controls">
+        <button id="btn">visualize</button>
+        <button id="params-btn">parameters</button>
+        <button id="legend-btn">legend</button>
+        <input type="text" id="pattern" placeholder="enter regex pattern" value="(a|b)+c"/>
+      </div>
+    </div>
+    <div id="params-panel">
+      <label>leaf spacing <input type="number" id="leaf_spacing" value="60" min="30" max="300"/></label>
+      <label>level height <input type="number" id="level_height" value="80" min="40" max="300"/></label>
+      <label>rect width <input type="number" id="rect_width" value="54" min="20" max="200"/></label>
+      <label>rect height <input type="number" id="rect_height" value="28" min="14" max="100"/></label>
+      <label>padding <input type="number" id="padding" value="40" min="5" max="100"/></label>
+      <label>edge width <input type="number" id="edge_width" value="1.5" min="0.5" max="5" step="0.5"/></label>
+      <label>label font <input type="number" id="label_font_size" value="12" min="6" max="24"/></label>
+      <label>corner radius <input type="number" id="corner_radius" value="5" min="0" max="20"/></label>
+    </div>
+  </div>
+  <div id="main">
+    <div id="content">
+      <div id="error"></div>
+      <div id="trees"></div>
+    </div>
+    <div id="legend-panel">
+      <h3>legend</h3>
+      <table>
+        <tr>
+          <td><span class="swatch" style="background:#d4eac8"></span></td>
+          <td><b>literal</b></td>
+          <td><code>a</code> <code>5</code> <code>\n</code></td>
+        </tr>
+        <tr>
+          <td><span class="swatch" style="background:#cfe0f5"></span></td>
+          <td><b>concat</b></td>
+          <td><code>·</code></td>
+        </tr>
+        <tr>
+          <td><span class="swatch" style="background:#f5e0cf"></span></td>
+          <td><b>alternation</b></td>
+          <td><code>|</code></td>
+        </tr>
+        <tr>
+          <td><span class="swatch" style="background:#f5cfcf"></span></td>
+          <td><b>repetition</b></td>
+          <td><code>*</code> <code>+</code> <code>?</code> <code>{m,n}</code> (greedy)<br><span style="display:block;margin-top:5px"><code>*?</code> <code>+?</code> <code>??</code> <code>{m,n}?</code> (lazy)</span></td>
+        </tr>
+        <tr>
+          <td><span class="swatch" style="background:#e8d4f0"></span></td>
+          <td><b>group</b></td>
+          <td><code>(n)</code> <code>(?&lt;name&gt;)</code> <code>(?:)</code></td>
+        </tr>
+        <tr>
+          <td><span class="swatch" style="background:#fdf0c2"></span></td>
+          <td><b>class</b></td>
+          <td><code>[a-z]</code> <code>\d</code> <code>\w</code> <code>\s</code> <code>\p{L}</code></td>
+        </tr>
+        <tr>
+          <td><span class="swatch" style="background:#d4f0ee"></span></td>
+          <td><b>assertion</b></td>
+          <td><code>^</code> <code>$</code> <code>\b</code> <code>\A</code> <code>\z</code></td>
+        </tr>
+        <tr>
+          <td><span class="swatch" style="background:#e8e8e8"></span></td>
+          <td><b>other</b></td>
+          <td><code>.</code> <code>(?i)</code> <code>∅</code></td>
+        </tr>
+      </table>
+      <hr class="legend-divider">
+      <div class="legend-note">
+        <b>AST</b>: Abstract Syntax Tree<br>
+        <b>HIR</b>: High-level Intermediate Representation
+      </div>
+    </div>
+  </div>
+  <script type="module" src="index.js"></script>
+  <footer>Soumendra Ganguly</footer>
+</body>
+</html>
