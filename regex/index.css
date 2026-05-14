@@ -1,0 +1,196 @@
+/*
+wasm-regex-tree - WebAssembly visualizer for Rust regular expressions.
+Copyright (C) 2026 Soumendra Ganguly
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+body {
+  font-family: monospace;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+#topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+}
+#controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+#right-controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+#params-panel {
+  display: none;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 0 4px 0;
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+}
+#params-panel.visible { display: flex; }
+#pattern {
+  font-family: monospace;
+  font-size: 16px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 40vw;
+}
+button {
+  font-family: monospace;
+  font-size: 14px;
+  padding: 6px 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #ddd;
+  cursor: pointer;
+}
+button:hover { background: #bbb; }
+#site-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap;
+  margin-right: 8px;
+}
+label { font-size: 13px; color: #555; }
+input[type=number] {
+  width: 56px;
+  font-family: monospace;
+  font-size: 13px;
+  padding: 4px 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#main {
+  display: flex;
+  gap: 0;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: calc(100vh - 60px);
+}
+#content {
+  flex: 1;
+  min-width: 0;
+  overflow-x: auto;
+}
+#error {
+  color: #c00;
+  font-size: 13px;
+  margin-bottom: 12px;
+  min-height: 18px;
+}
+#trees {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+}
+#trees figure + figure {
+  border-top: 1px solid #ddd;
+  padding-top: 32px;
+  margin-top: 32px;
+  width: 100%;
+  text-align: center;
+}
+#trees figure {
+  padding-bottom: 0;
+}
+figure {
+  margin: 0;
+  display: inline-block;
+}
+figure button {
+  display: block;
+  margin: 6px auto 0;
+}
+#legend-panel {
+  display: none;
+  width: 25vw;
+  flex-shrink: 0;
+  margin-left: 24px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  font-size: 13px;
+  box-sizing: border-box;
+  align-self: center;
+  position: sticky;
+  top: calc(50vh - 50%);
+}
+#legend-panel.visible { display: block; }
+#legend-panel h3 {
+  margin: 0 0 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  font-weight: normal;
+}
+#legend-panel table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#legend-panel td {
+  padding: 5px 6px;
+  vertical-align: middle;
+}
+#legend-panel tr:not(:last-child) td {
+  border-bottom: 1px solid #f0f0f0;
+}
+.swatch {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.legend-divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 12px 0;
+}
+.legend-note {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.7;
+}
+#legend-panel code {
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 1px 4px;
+  font-size: 12px;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #888;
+  background: #f9f9f9;
+}
